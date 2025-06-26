@@ -16,8 +16,8 @@ public class BankingServiceTestSkyPayApplication {
         return args -> {
             AccountService account = new Account();
             account.deposit(1000);
-            account.deposit(500);
-            account.withdraw(300);
+            account.deposit(2000);
+            account.withdraw(500);
             // Afficher le relevé
             account.printStatement();
         };
